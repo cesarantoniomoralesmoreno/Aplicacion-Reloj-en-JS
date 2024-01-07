@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj Digital</title>
+    <link href="css/estilos.css" rel="stylesheet"/>
+    
+</head>
+<body><!--onload=mostrarReloj() asi cargamos normalmente la funcion pero como se desea que se actualice cada
+cierto tiempo lo mejor es llamarla a traves de la funcion setInterval que definimos en el archivo js,
+tambien cabe mencionar que con este llamado no se puede mostrar primero lo que dice el "div hora"
+y en el caso de llamarlo con el setInterval si lo hace-->
+    <div id="reloj">
+        <div class="reloj-contenedor" id="contenedor">
+            <div id="hora">Reloj digital</div>
+            <div id="fecha">Con JavaScript</div>
+        </div>
+    </div>
+
+    <script src="/JS/relojJS.js"></script>
+</body>
+</html>
